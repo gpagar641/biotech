@@ -4,6 +4,10 @@ public class DoctorDetails {
 	
 	private int id;
 	
+	private String docUsername;
+	
+	private String docPassword;
+	
 	private String title;
 	
 	private String firstName;
@@ -13,6 +17,10 @@ public class DoctorDetails {
 	private String gender;
 	
 	private String city;
+	
+	private String address;
+	
+	private String hospitalName;
 	
 	private String yearOfExperience;
 	
@@ -32,11 +40,23 @@ public class DoctorDetails {
 	
 	private String specialization;
 	
+	private String specializationId;
+	
 	private String councilReg_no;
 	
 	private String councilName;
 	
 	private String document;
+	
+	private String deleteStatus;
+	
+	private String stringOne;
+	
+	private String stringTwo;
+	
+	private int intOne;
+	
+	private int intTwo;
 
 	public int getId() {
 		return id;
@@ -182,14 +202,98 @@ public class DoctorDetails {
 		this.document = document;
 	}
 
+	
+
+	public String getDocUsername() {
+		return docUsername;
+	}
+
+	public void setDocUsername(String docUsername) {
+		this.docUsername = docUsername;
+	}
+
+	public String getDocPassword() {
+		return docPassword;
+	}
+
+	public void setDocPassword(String docPassword) {
+		this.docPassword = docPassword;
+	}
+
 	@Override
 	public String toString() {
-		return "DoctorDetalis [id=" + id + ", title=" + title + ", firstName=" + firstName + ", lastName=" + lastName
-				+ ", gender=" + gender + ", city=" + city + ", yearOfExperience=" + yearOfExperience + ", aboutMe="
-				+ aboutMe + ", profilePhoto=" + profilePhoto + ", contactNo=" + contactNo + ", email=" + email
-				+ ", Qualification=" + Qualification + ", college=" + college + ", completionYear=" + completionYear
-				+ ", specialization=" + specialization + ", councilReg_no=" + councilReg_no + ", councilName="
-				+ councilName + ", document=" + document + "]";
+		return "DoctorDetails [id=" + id + ", docUsername=" + docUsername + ", docPassword=" + docPassword + ", title="
+				+ title + ", firstName=" + firstName + ", lastName=" + lastName + ", gender=" + gender + ", city="
+				+ city + ", yearOfExperience=" + yearOfExperience + ", aboutMe=" + aboutMe + ", profilePhoto="
+				+ profilePhoto + ", contactNo=" + contactNo + ", email=" + email + ", Qualification=" + Qualification
+				+ ", college=" + college + ", completionYear=" + completionYear + ", specialization=" + specialization
+				+ ", councilReg_no=" + councilReg_no + ", councilName=" + councilName + ", document=" + document + "]";
+	}
+
+	public String getSpecializationId() {
+		return specializationId;
+	}
+
+	public void setSpecializationId(String specializationId) {
+		this.specializationId = specializationId;
+	}
+
+	
+
+	public String getStringOne() {
+		return stringOne;
+	}
+
+	public void setStringOne(String stringOne) {
+		this.stringOne = stringOne;
+	}
+
+	public String getStringTwo() {
+		return stringTwo;
+	}
+
+	public void setStringTwo(String stringTwo) {
+		this.stringTwo = stringTwo;
+	}
+
+	public int getIntOne() {
+		return intOne;
+	}
+
+	public void setIntOne(int intOne) {
+		this.intOne = intOne;
+	}
+
+	public int getIntTwo() {
+		return intTwo;
+	}
+
+	public void setIntTwo(int intTwo) {
+		this.intTwo = intTwo;
+	}
+
+	public String getDeleteStatus() {
+		return deleteStatus;
+	}
+
+	public void setDeleteStatus(String deleteStatus) {
+		this.deleteStatus = deleteStatus;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public String getHospitalName() {
+		return hospitalName;
+	}
+
+	public void setHospitalName(String hospitalName) {
+		this.hospitalName = hospitalName;
 	}
 
 	 

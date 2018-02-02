@@ -9,9 +9,9 @@
 <title>Add New User</title>
 </head>
 <body>
-<form method="POST" action='submitDoctorRegProcess' name="frmAddUser"><input
+<form method="POST" action='/submitDoctorRegProcess' name="frmAddUser"><input
 	type="hidden" name="action" value="insert" />
-<p><b>Add New Record</b></p> 
+<p><b>Doctor Registration</b></p> 
 <table>
 	<tr>
 		<td>Doctor ID</td>
@@ -35,8 +35,18 @@
 		<td><input type="text" name="gender" id="gender"/></td>
 	</tr>
 	<tr>
-		<td>city</td>
+		<td>City</td>
 		<td><input type="text" name="city" id="city"/></td>
+	</tr>
+	
+	<tr>
+		<td>Address</td>
+		<td><input type="text" name="address" id="address"/></td>
+	</tr>
+	
+	<tr>
+		<td>Hospital Name</td>
+		<td><input type="text" name="hospitalName" id="hospitalName"/></td>
 	</tr>
 	
 	<tr>
@@ -61,7 +71,7 @@
 		<td><input type="text" name="Qualification" id="Qualification"/></td>
 	</tr>
 	<tr>
-		<td>Spacialization</td>
+		<td>Specialization</td>
 		<td><input type="text" name="specialization" id="specialization"/></td>
 	</tr>
 	

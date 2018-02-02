@@ -30,84 +30,84 @@
     <th>Document</th>
 	<tr>
 		
-		<td>${doDetails.getId()}</td>
+		<td>${doDetails.id()}</td>
 	</tr>
 	<tr>
 		
-		<td>${doDetails.getTitle()}</td>
+		<td>${doDetails.title()}</td>
 	</tr>
 	<tr>
 		
-		<td>${doDetails.getFirstName()}</td>
+		<td>${doDetails.firstName()}</td>
 	</tr>
 	<tr>
 		
-		<td>${doDetails.getLastName()}</td>
+		<td>${doDetails.lastName()}</td>
 	</tr>
 	
 	<tr>
 		
-		<td>${doDetails.getGender()}</td>
+		<td>${doDetails.gender()}</td>
 	</tr>
 	<tr>
 		
-		<td>${doDetails.getCity()}</td>
+		<td>${doDetails.city()}</td>
 	</tr>
 	
 	<tr>
 		
-		<td>${doDetails.getYearOfExperience()}</td>
+		<td>${doDetails.yearOfExperience()}</td>
 	</tr>
 	<tr>
 		
-		<td>${doDetails.getAboutMe()}</td>
+		<td>${doDetails.aboutMe()}</td>
 	</tr>
 	
 	<tr>
 		
-		<td>${doDetails.getProfilePhoto()}</td>
+		<td>${doDetails.profilePhoto()}</td>
 	</tr>
 	<tr>
 		
-		<td>${doDetails.getContactNo()}</td>
+		<td>${doDetails.contactNo()}</td>
 	</tr>
 	<tr>
 		
-		<td>${doDetails.getEmail()}</td>
+		<td>${doDetails.email()}</td>
 	</tr>
 	<tr>
 		
-		<td>${doDetails.getQualification()}</td>
+		<td>${doDetails.Qualification()}</td>
 	</tr>
 	
 	<tr>
 	
-		<td>${doDetails.getCollege()}</td>
+		<td>${doDetails.college()}</td>
 	</tr>
 	
 	<tr>
 		
-		<td>${doDetails.getCompletionYear()}</td>
+		<td>${doDetails.completionYear()}</td>
 	</tr>
 	
 	<tr>
 		
-		<td>${doDetails.getSpecialization()}</td>
+		<td>${doDetails.specialization()}</td>
 	</tr>
 	
 	<tr>
 		
-		<td>${doDetails.getCouncilReg_no()}</td>
+		<td>${doDetails.councilReg_no()}</td>
 	</tr>
 	
 	<tr>
 		
-		<td>${doDetails.getCouncilName()}</td>
+		<td>${doDetails.councilName()}</td>
 	</tr>
 	
 	<tr>
 		
-		<td>${doDetails.getDocument()}</td>
+		<td>${doDetails.document()}</td>
 	</tr>
 	
 	<tr>

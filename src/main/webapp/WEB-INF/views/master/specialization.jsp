@@ -13,15 +13,15 @@
 <table>
 	<tr>
 		<td>Specialization Id</td>
-		<td><input type="text" name="id" id="id"/></td>
+		<td><input type="text" name="specializationId" id="specializationId"/></td>
 	</tr>
 	<tr>
 		<td>Specialization Type</td>
-		<td><input type="text" name="title" id="id"/></td>
+		<td><input type="text" name="specializationType" id="specializationType"/></td>
 	</tr>
 	<tr>
 		<td>Description</td>
-		<td><input type="text" name="firstName" id="firstName"/></td>
+		<td><input type="text" name="specializationDescription" id="specializationDescription"/></td>
 	</tr>
 	
 	

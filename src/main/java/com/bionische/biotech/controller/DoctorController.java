@@ -15,22 +15,22 @@ import com.bionische.biotech.model.DoctorDetails;
 
 public class DoctorController {
 	
-	@RequestMapping(value="/showDoctorRegProcess", method=RequestMethod.GET)
+@RequestMapping(value="/showDoctorRegProcess", method=RequestMethod.GET)
 	
 	public ModelAndView showDoctorRegProcess()
 	{
-		ModelAndView model=new ModelAndView("DoctorReg");
+		ModelAndView model=new ModelAndView("doctor/DoctorReg");
 		
 		return model;
 		
 	}
 	
 	
-@RequestMapping(value="/submitDoctorRegProcess", method=RequestMethod.GET)
+@RequestMapping(value="/submitDoctorRegProcess", method=RequestMethod.POST)
 	
-	public ModelAndView saveDoctorRegProcess(HttpServletRequest request,HttpServletResponse response)
+	public ModelAndView submitDoctorRegProcess(HttpServletRequest request,HttpServletResponse response)
 	{
-		ModelAndView model=new ModelAndView("DoctorReg");
+		ModelAndView model=new ModelAndView("doctor/doctorDisplay");
 		
 		DoctorDetails doctor=new DoctorDetails();
 		
@@ -57,6 +57,16 @@ public class DoctorController {
 		
 	}
 	
+@RequestMapping(value="/displayDoctorRegProcess", method=RequestMethod.GET)
+
+public ModelAndView displayDoctorRegProcess()
+{
+	ModelAndView model=new ModelAndView("doctor/doctorDisplay");
+	DoctorDetails doctor=new DoctorDetails();
 	
+	model.addObject("docDetails", doctor);
+	return model;
+	
+}
 
 }
